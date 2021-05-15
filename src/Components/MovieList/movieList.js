@@ -47,7 +47,7 @@ class MovieList extends Component {
           <div class="col-md-12">
             <header>
               <nav class="navbar navbar-dark bg-dark fixed-top" style={{ justifyContent: "space-between" }}>
-                <a style={{ display: "flex", flexDirection: "row" }} href={"/movies"}><img src={home} style={{ height: "40px" }} alt="Logo"></img><p style={{ color: "whitesmoke", paddingLeft: "6px", paddingTop: "3px" }}>Movie Reviewer</p></a>
+                <a style={{ display: "flex", flexDirection: "row" }} href={"/movies"}><img src={home} style={{ height: "40px" }} alt="Main Logo"></img><p style={{ color: "whitesmoke", paddingLeft: "6px", paddingTop: "3px" }}>Movie Reviewer</p></a>
                 <input class="form-control col-sm-2" value={searchVal} type="text" placeholder="Search Here" aria-label="Search" onChange={this.onSearch} />
               </nav>
             </header>
@@ -67,7 +67,7 @@ class MovieList extends Component {
                     <div className="col-md-4">
                       <a href={"/MovieDetail/" + movies.id}>
                         <div className="card" style={{ marginBottom: "20px", border: "solid 2px black", backgroundColor: "gainsboro", borderRadius: "5px" }}>
-                          <img className="image" src={movies.img[0]} alt="Card image cap" height="300px" />
+                          <img className="image" src={movies.img[0]} alt="<Movie image" height="300px" />
                           <div className="middle">
                             <h5 className="text">{movies.name}</h5>
                             <h5 >Rating: {movies.rating} ⭐️</h5>

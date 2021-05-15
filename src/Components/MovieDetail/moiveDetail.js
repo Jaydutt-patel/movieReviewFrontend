@@ -7,6 +7,7 @@ import "react-modal-video/scss/modal-video.scss";
 import imdb from "../../Assets/imdb.png"
 import director from "../../Assets/director.png"
 import home from "../../Assets/home.png"
+import cast from "../../Assets/cast.png"
 
 class Movie extends Component {
 
@@ -35,12 +36,12 @@ class Movie extends Component {
             <div class="container-fluid">
                 <header>
                     <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark" style={{ justifyContent: "space-between" }}>
-                        <a style={{ display: "flex", flexDirection: "row" }} href={"/movies"}><img src={home} style={{ height: "40px" }} alt="Logo"></img><p style={{ color: "whitesmoke", paddingLeft: "6px", paddingTop: "3px" }}>Movie Reviewer</p></a>
+                        <a style={{ display: "flex", flexDirection: "row" }} href={"/movies"}><img src={home} style={{ height: "40px" }} alt="Main Logo"></img><p style={{ color: "whitesmoke", paddingLeft: "6px", paddingTop: "3px" }}>Movie Reviewer</p></a>
                     </nav>
                 </header>
                 <div class="row pt-5">
                     <div class="col-8">
-                        <img src={movie.img[0]} alt="BigCo Inc. logo" height="500px" width="100%" />
+                        <img src={movie.img[0]} alt="Main movie image" height="500px" width="100%" />
                     </div>
                     <div class="col-4">
                         <h1 class="d-flex justify-content-start text-light text-uppercase">{movie.name}</h1>
@@ -52,8 +53,12 @@ class Movie extends Component {
                                 <th><p style={{ paddingLeft: "35px", marginTop: "15px" }} class="d-flex justify-content-start  text-light">{movie.rating}⭐️</p></th>
                             </tr>
                             <tr >
-                                <td><img src={director} alt="imdb" /></td>
+                                <td><img src={director} alt="director" /></td>
                                 <th><p style={{ paddingLeft: "35px", marginTop: "15px" }} class="d-flex justify-content-start  text-light">{movie.director}</p></th>
+                            </tr>
+                            <tr >
+                                <td><img src={cast} alt="cast" style={{ height: "40px" }} /></td>
+                                <th><p style={{ paddingLeft: "35px", marginTop: "15px" }} class="d-flex justify-content-start  text-light">{movie.cast}</p></th>
                             </tr>
                         </table>
                     </div>

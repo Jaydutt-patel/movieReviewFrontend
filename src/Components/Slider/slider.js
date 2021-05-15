@@ -16,8 +16,8 @@ const Slider = (props) => {
     // console.log(images[0].url)
     const slide = [
         { url: "https://gossipandgab.com/wp-content/uploads/2016/12/vulture.jpg" },
-        { url: "https://m.media-amazon.com/images/M/MV5BYjI3NDg0ZTEtMDEwYS00YWMyLThjYjktMTNlM2NmYjc1OGRiXkEyXkFqcGdeQXVyMTEyMjM2NDc2._V1_UX182_CR0,0,182,268_AL_.jpg" },
-        { url: "https://i.ytimg.com/vi/C0BMx-qxsP4/maxresdefault.jpg" }
+        { url: "https://www.screengeek.net/wp-content/uploads/2018/12/avengers-4-trailer-release.jpg" },
+        { url: "https://i.ytimg.com/vi/vM-Bja2Gy04/maxresdefault.jpg" }
 
     ]
     return (
