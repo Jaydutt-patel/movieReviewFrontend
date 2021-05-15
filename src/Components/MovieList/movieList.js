@@ -82,16 +82,10 @@ class MovieList extends Component {
           </div>
         </div>
         <div className="row">
-          {/* <div className="col-md-12">
-            <footer class="navbar navbar-expand-md navbar-dark bg-dark ">
-              <p style={{ color: "white", alignSelf: "center" }}>  Company, Inc.</p>
-            </footer>
-          </div> */}
           <div class="footer">
             <div className="col-md-12">
               <footer class="navbar navbar-dark bg-dark  bg-dark ">
-                <div class="footer-copyright text-center text-light">© 2020 Copyright S
-          </div>
+                <div class="footer-copyright text-center text-light">© 2020 Copyright S</div>
               </footer>
             </div>
           </div>

@@ -80,7 +80,7 @@ class Movie extends Component {
                             hideZoom={true}
                             small={movie.img[2]}
                             large={movie.img[2]}
-                            alt="Hello World!"
+                            alt="Movie images"
                         />
                     </div>
                     <div class="col-4 ">
@@ -93,14 +93,14 @@ class Movie extends Component {
                             hideZoom={true}
                             small={movie.img[0]}
                             large={movie.img[0]}
-                            alt="Hello World!"
+                            alt="Movie images"
                         />
                     </div>
                 </div>
-                <div className="row">
+                <div class="footer">
                     <div className="col-md-12">
-                        <footer class="navbar navbar-expand-md navbar-dark bg-dark ">
-                            <p style={{ color: "white", alignSelf: "center" }}>  Company, Inc.</p>
+                        <footer class="navbar navbar-dark bg-dark  bg-dark ">
+                            <div class="footer-copyright text-center text-light">© 2020 Copyright S</div>
                         </footer>
                     </div>
                 </div>
